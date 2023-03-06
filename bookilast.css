@@ -1,0 +1,486 @@
+main{
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Raleway', sans-serif;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+
+header{
+    margin: 3rem;
+}
+
+.blocheadertext {
+    margin-top: 2em;
+}
+
+.headertext {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.booki img{
+    height: 1.5em;
+}
+
+.headerlist li {
+    display: inline;
+    font-size: 1.2em;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.headerlist li:hover {
+    padding-top: 2.3em;
+    color: #0065FC;
+    border-top: solid #0065FC;
+}
+
+.description p {
+   margin: 0;
+   padding: 0.2em;
+   font-weight: 400;
+}
+.description p:nth-child(1) {
+    font-weight: 700;
+    font-size: 1.5em;
+}
+
+
+.recherche {
+    display: flex; 
+}
+
+.recherche :hover {
+    color: black;
+}
+
+.fa-location-dot {
+    background-color: rgb(235, 230, 230);
+    border-radius: 10px 0px 0px 10px;
+    padding: 15px 15px 15px 15px;
+    font-size: 25px;
+}
+
+input{
+    padding-left: 15px;
+    border: none;
+    border-top: 1px solid #F2F2F2;
+    border-bottom: 1px solid #F2F2F2;
+    font-size: large;
+}
+
+button {
+    text-align: center;
+    font-size: large;
+    color: white;
+    background-color:rgb(12, 133, 231);
+    border: none;
+    border-radius: 0px 15px 15px 0px;
+    padding: 15px 25px 15px 25px;
+}
+
+NAVIGATION 
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 100%;
+    margin-top: 1em;
+}
+
+.nav p {
+    font-weight: 700;
+    font-size: 1.3em;
+}
+
+.nav li {
+    display: inline;
+    margin-right: 2em;
+    padding: 0.8em 1.2em 0.6em 0.6em;
+    font-size: large;
+    border: solid;
+    border-color: #d9d9d9;
+    border-radius: 30px 30px 30px 30px;
+}
+
+.nav li:hover {
+    background-color: #DEEBFF;
+    border-color: #DEEBFF;
+}
+
+icone 
+.fa-money-bill-wave, 
+.fa-person, 
+.fa-heart, 
+.fa-dog, 
+.fa-info{
+    color: #0065FC;
+    padding: 15px;
+    font-size: 1.3em;
+}
+
+span {
+    margin-left: 0.5em;
+    font-family: 'raleway', sans-serif;
+    font-weight: 400;
+}
+.blocheadertext {
+    margin-top: 2em;
+}
+
+.headertext {
+    display: flex;
+ 
+.fa-sharp fa-solid fa-info {  
+    padding:  5px 8px 5px 8px;
+    border: solid 1px;
+    border-color: lightgrey;
+    border-radius: 50px 50px 50px 50px;
+    font-size: 0.6em;
+}
+}
+
+
+.section1 figure, aside figure, .section2 figure{
+    background-color: white;
+    width: 15rem;
+    height: 12rem;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+}
+
+.section1, aside{
+    background-color: rgb(201, 199, 199);
+    border-radius: 20px;
+    height: 39rem;
+    width: 54rem;
+}
+
+.section1__carte, .aside__carte{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.section1 ul, aside ul{
+    list-style: none;
+    margin-left: -1.5rem;
+    margin-top: 0;
+}
+
+.section1 li:first-child, aside li:first-child{
+    font-size: 15px;
+    font-weight: bold;
+}
+.section1 li:nth-child(2), aside li:nth-child(2){
+    font-size: 13px;
+    padding-top: 0.2rem;
+}
+
+.section1 li:nth-child(3), aside li:nth-child(3){
+    font-size: 13px;
+    color: blue;
+    padding-top: 0.2rem;
+} 
+
+.star-grey{
+    color: grey;
+}
+
+.section1 h1, aside h1{
+    padding-left: 2.5rem;  
+    padding-top: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+
+section{
+    margin-right: 3rem;
+}
+
+.section1 img{
+    height: 55%;
+    object-fit: cover;
+    padding: 0.3rem;
+    border-radius: 20px 20px 0 0;
+}
+
+.section1 h2{
+    font-size: 16px;
+    padding-left: 2.5rem;
+    padding-bottom: 3rem;
+}
+
+
+aside{
+    width: 27rem;
+    margin-left: 4rem;
+}
+
+.bloccarteaside{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+
+}
+
+aside img{
+    width: 40%;
+    object-fit: cover;
+    padding: 0.4rem;
+    border-radius: 20px 0 0 20px;
+}
+
+aside figure{
+    width: 21rem;
+    height: 8rem;
+    display: flex;
+    flex-direction: row;
+    margin: 1rem;
+    
+}
+
+aside ul{
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 1rem;
+}
+
+.icon-stat{
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.section2{
+    width: 100%;
+    height: 35rem;
+    margin-bottom: 8rem;
+    margin-left: 1rem;
+}
+
+.section2 h1{
+    padding-left: 1.5rem;  
+    padding-top: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.section2__carte{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.section2__carte figure{
+    height: 30rem;
+    width: 19rem;
+    border-radius: 20px;
+    box-shadow: 1px 1px 0.2em 0.1em gray;
+}
+
+.section2__carte img{
+    object-fit: cover;
+    height: 90%;
+    border-radius: 20px 20px 0 0;
+}
+.section2 figcaption{
+    padding-top: 1em;
+    padding-left: 1em;
+    font-weight: bold;
+}
+
+
+footer{
+    
+    background-color: lightgray;
+    width: 82rem;
+    height: 15rem;
+    margin-left: 2rem;
+}
+
+
+.apropos{
+    display: flex;
+    width: 80%; 
+}
+
+.apropos h3{
+    font-size: 21px;
+}
+
+.apropos ul{
+    font-size: 19px;
+    line-height: 1.9rem;
+    list-style: none;
+    padding-left: 2rem;
+    padding-right: 9rem;
+}
+
+
+@media all and (max-width: 1450px) {
+    .section1{
+        width: 55%;
+    }
+
+    .section1__carte figure{
+        width: 25%;
+    }
+    
+    aside { 
+        width: 27% ;
+    }
+
+    .section2__carte figure{
+        width: 20%;
+    }
+
+    footer{
+        width: 90%;
+        height: 100%;
+    }
+
+    .apropos{
+        width: 100%;
+    }
+
+    .apropos ul{
+        padding-left: 2rem;
+        padding-right: 4rem;
+    }
+}   
+
+@media screen and (max-width: 1200px){
+    .section1 li:first-child,  aside li:first-child{
+        font-size: 11px;
+    }
+    .section1 li:nth-child(2), aside li:nth-child(2), .section1 li:nth-child(3), aside li:nth-child(3){
+        font-size: 10px;
+    }
+}
+
+
+/* Responsive for tablet */
+
+@media screen and (max-width: 750px) {
+    body{
+        justify-content: center;
+    }
+    .section1{
+        width: 95%;
+        margin: 0;
+    }
+    aside{
+        width: 95%;
+        height: 25%;
+        margin: 0;
+        margin-top: 4rem;
+    }
+    .aside__carte{
+        flex-direction: row;
+        margin-bottom: 2em;
+    }
+    aside h1{
+        margin: 0;
+        padding-bottom: 1em;
+    }
+    aside figure{
+        width: 30%;
+        margin: 0.5em;
+    }
+    aside li:first-child{ 
+        font-size: 9px;
+    }
+    aside li:nth-child(2), aside li:nth-child(3){
+        font-size: 8px;
+    } 
+    .section2{
+        width: 100%;
+        height: 40%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 5rem;
+    }
+    .section2 figure{
+        width: 18%;
+        height: auto;
+    }
+    .section2 img{
+        height: 75%;
+    }
+    figcaption{
+        font-size: 10px;
+        padding-bottom: 1em;
+        padding-top: 1em;
+    }
+    .apropos{ 
+        width: 90%;
+    }
+    .apropos ul{
+        padding-left: 1rem;
+        padding-right: 2rem;
+        font-size: 15px;
+    } 
+}
+
+/* Responsive for mobile */
+
+@media all and (max-width: 560px){
+    .section1{
+        height: auto;
+        width: 90%;
+        margin: auto;
+    }
+
+    .section1__carte{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+    }
+
+    .section1 figure{
+        width: 80%;
+    }
+
+    .aside{
+        width: 90%;
+    }
+
+    .aside__carte{
+        flex-direction: column;
+        align-content: center;
+    }
+    
+    aside figure{
+        width: 80%;
+    }
+
+    .section2__carte{
+        flex-direction: column;
+        align-content: center;
+    }
+
+    .section2 figure{
+        width: 90%;
+        height: 10rem;
+    }
+
+    .apropos{ 
+        width: 90%;
+    }
+    .apropos ul{
+        padding-left: 0.5rem;
+        padding-right: 1rem;
+        font-size: 10px;
+    } 
+
+    .apropos h3{
+        font-size: 14px;
+    }
+
+}
